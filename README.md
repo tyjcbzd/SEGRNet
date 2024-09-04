@@ -1,4 +1,4 @@
 # SEGRNet
 SYNERGISTIC EDGE-GUIDED GRAPH REASONING NETWORK FOR BIOMEDICAL IMAGE SEGMENTATION
 
-The code is coming for real.
+The code is coming... (no kidding!)
