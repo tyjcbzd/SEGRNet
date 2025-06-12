@@ -10,10 +10,15 @@ Biomedical image segmentation plays a vital role in computer-aided diagnosis and
 
 
 ### Synergistic Edge-Guided Graph Reasoning (SEGR) module
-![Image 2](images/AHFA.png)
+| ![Image 2](imgs/Core_idea.png) | ![Image 3](imgs/SEGRmodule.png) |
+| :--: | :--: |
+| **Schema of graph reasoning** | **Structure of SEGR module** |
 
 
 ## Experimental results
+![Image 4](imgs/results.png)
+
+
 
 
 ## :black_nib: For citation
