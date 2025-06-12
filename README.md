@@ -3,8 +3,13 @@ This is the official implementation code for article named "GENERALIZED SYNERGIS
 
 ## Overview
 
-Biomedical image segmentation plays a vital role in computer-aided diagnosis and treatment planning. However, existing methods often struggle with modeling complex anatomical structures and capturing long-range dependencies. To address these limitations, we propose a generalized Synergistic Edge-Guided Graph Reasoning Network (SEGRNet) that integrates convolutional feature extraction with graph-based global reasoning. The model projects pixel-level region and edge features into a graph domain, enabling adaptive interaction between local and global features via a graph convolutional network. After reasoning, enhanced features are mapped back for refined segmentation. Experiments conducted on three public datasets including BUSI, LGG and CHAOS outperforms state-of-the-art models in terms of dice coefficient, mean intersection over union and structural similarity. These results confirm the effectiveness and generalization ability of the proposed method across various medical imaging scenarios, making it suitable for future clinical applications.
+SEGRNet is a novel and generalized framework for biomedical image segmentation that synergistically combines convolutional feature extraction with graph-based global reasoning. SEGRNet effectively models complex anatomical structures and captures long-range dependencies, addressing key limitations of conventional segmentation methods.
 
+**Key Features：**
+- **Edge-Guided Graph Reasoning:** Regions and edges are projected into a graph domain, where adaptive interaction between local and global features is achieved via a graph convolutional network (GCN).
+- **Convolutional Backbone:** Leverages the power of convolutions for robust local feature extraction.
+- **Bidirectional Mapping:** Pixel-level features are mapped to and from the graph domain, ensuring refined regional and boundary predictions.
+- **Generalizability:** Demonstrated strong and consistent performance on a wide range of biomedical imaging modalities.
 
 ![Image 1](imgs/Overview.png)
 
