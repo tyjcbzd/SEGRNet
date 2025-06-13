@@ -20,7 +20,7 @@ SEGRNet is a novel and generalized framework for biomedical image segmentation t
 | **Schema of graph reasoning** | **Structure of SEGR module** |
 
 
-## Experimental results
+## Visualization results
 ![Image 4](imgs/results.png)
 
 
